@@ -1,0 +1,6 @@
+*********1.0.2*********
+fixed a few bugs
+removed cumbersome commands
+added ability to look at self
+added last command command
+dead opponents now don't appear on the list of monsters

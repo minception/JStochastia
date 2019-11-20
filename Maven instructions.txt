@@ -1,0 +1,2 @@
+"mvn install" - builds .jar file to "target" directory
+"mvn site" - builds documentation to "target/site/apidocs/index.html"

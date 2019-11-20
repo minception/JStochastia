@@ -1,0 +1,57 @@
+intro:Welcome to Stochastia!%nType help to see the list of available commands and some helpful tip(s)
+gameIntro:Greetings, traveler!%nWelcome to the land of Stochastia!%nIf you ever find yourself lost, all you have to do is to say 'help'.
+mainMenuHelp:start%n   Start new game%nexit%n   Exit game%n   Tip: you can write a command ; to execute the last command again
+overworldHelp:go DIRECTION%n   Go in a desired direction%n   DIRECTION can be one of the four cardinal directions (north,east,south,west)%nlook (around|at SOMETHING) [INDEX]%n   You must look before you leap and thus looking is the first thing I advise you to do.%n   Looking around will show you what monsters and items are around you. SOMETHING can be either 'monster' or 'item', which should be followed by an index you are provided with when you look around. SOMETHING can also be yourself if you'd like to see how much life is left in you.%nattack INDEX%n   Attack a monster with a given index%nget INDEX%n   Pick up an item with a given index and put it in your inventory%ninventory%n   Open and manage your inventory
+fightHelp:attack%n   attack a monster%ndefend%n   defend for one turn%nrun%n   try to run away
+inventoryHelp:equip INDEX%n   Equip item number INDEX%ndrop INDEX%n   Drop item number INDEX%nuse INDEX%n   Use item number INDEX%ndescribe INDEX%n   Describe an item number INDEX%nequipped%n   Show equipped items%nlist%n   List all the items in the inventory%nclose%n   Exit inventory and return to the overworld
+gameExit:Goodbye
+overworldUnknown:I don't know how to %s.
+menuUnknown:Command %s is unknown.%nType 'help' to show available commands.
+fightUnknown:You are in a fight. You can't %s right now.
+inventoryUnknown:You are in an inventory now. You can't %s%nType help to see what you can do
+noDirection:Where do you want to go?
+unknownDirection:I can't go %s
+moveArea:You are in a %s
+armorDescription:Name:    %s%nDefence:  %d
+weaponDescription:Name:   %s%nDamage:  %d-%d
+lookNoAt:You must look at something.
+noMonsters:There are no monsters around.
+noItems:There are no items around.
+areaDesc:You are in a %s.%n%s%n%s
+noIndex:You need to provide me with an index too.
+wrongMonsterIndex:There are no monsters at index %d.
+wrongItemIndex:There are no items at index %d.
+mobDesc:%s level %d
+goInventory:You peek into your inventory
+exitInventory:You exit your inventory
+playerDescription:Name: %s%nLevel: %d%nExp: %d/%d%nHp: %d/%d%nAttack: %d-%d%nDefence: %d
+playerEquipDescription:Weapon: %s%nArmor: %s
+useWhat:You forgot to say what to use.
+dropWhat:You forgot to say what to drop.
+equipWhat:You forgot to say what to equip.
+wrongEquipIndex:There are no items at index %d
+used:%s used
+dropped:%s dropped
+startFight:You attack %s
+attackWhom:You didn't specify who you'd like to attack
+wrongAttackIndex:There is no monster number %d. Try looking around.
+lookDoesntExist:There is no %s to look at.
+mobsAreaDesc:You see some monsters%n
+itemsAreaDesc:You see some items%n
+potionDesc:%s HP: %d
+getNoIndex:You can't pick up nothing
+pickUp:You pick up %s
+runSuccess:You run away successfully.
+unsuccessfulRun:Your attempt to flee is in vain. You got attacked in the process;
+inventoryEmpty:Your inventory is empty
+notNumber:You wrote a word in a place of number
+cantEquip:You can't equip %s
+cantUse:You can't use %s
+equipped:%s equipped
+damageDealt:You deal %d damage%nIn return the %s attacks you and deals %d damage
+defend:You defend from incoming attack
+damageReceived:You were attacked and received %d damage
+killOpponent:You killed the %s succesfully and received %d experience.
+attackDead:The %s is dead, you cannot attack him, however you try
+gameOver:You unfortunately died in a fight at level %d
+attack:You viciously attack %s
